@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    padding: 0 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 110px;
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+header{
+    background-image: url(./hotelimages/gabriel\ ghnassia\ A9h6OsAxTyQ\ unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__facilities{
+  background-image: url(./hotelimages/palm-trees-at-night-258154\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header__rooms{
+  background-image: url(./hotelimages/apartment-bed-bedroom-chair-271618\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hometext{
+    
+    position: relative;
+    color: white;
+}
+
+      
+.row {
+ position: absolute;
+ left: 300px;
+ top: 85px;
+}
+
+.welcome__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+  
+    color: #ffffff;
+  }
+
+  .luxury__text {
+    font-size: 120px;
+    font-family: EB Garamond;
+    font-style: normal;
+  }
+  
+  .hotel__text {
+    font-size: 35px;
+    font-family: EB Garamond;
+    font-style: normal;
+  }
+  
+  .header__paragraph {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+
+
+  .btn__row {
+    position: relative;
+    overflow: none;
+  }
+
+  .header__btn {
+    position: absolute;
+    width: 150px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0b973;
+    color: white;
+    top: -50px;
+    left: 44px;
+  }
+
+  .header__btn:hover{
+    background-color: #e0b973;
+  }
+
+  .header__btns:hover{
+    background-color: #e0b973;
+  }
+  .header__btns {
+    position: absolute;
+    width: 150px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0b973;
+    color: white;
+    top: 350px;
+    left: 370px;
+  }
+
+  .p__header{
+      position: relative;
+  }
+
+  .p__headers{
+    position: relative;
+  }
+
+  .scroll{
+
+     position: absolute;
+     top: 480px;
+     left: 680px;
+     color: white;
+     font-weight: bolder;
+     font-family: Montserrat;
+     font-size: 18px;
+  }
+
+  .arrow__circle{
+      position: absolute;
+      top: 590px;
+      left: 696px;
+      width: 50px;
+      height: 30%;
+  }
+
+  .scrolls{
+
+    position: absolute;
+    top: 480px;
+    left: 700px;
+    color: white;
+    font-weight: bolder;
+    font-family: Montserrat;
+    font-size: 18px;
+ }
+
+ .arrow__circles{
+     position: absolute;
+     top: 590px;
+     left: 710px;
+     width: 50px;
+     height: 30%;
+ }
+
+
+
+
+  .facilities__div{
+    padding: 100px;
+    align-items: center;
+  }
+
+  .facilities__div h2{
+    margin: 0 500px;
+    color: #14274A;
+    font-weight: bolder;
+    font-family: EB Garamond;
+    font-size: 40px;
+  }
+
+  .facilities__div p{
+    margin: 25px 0;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    color:#14274A ;
+  }
+
+
+
+  .gym__div{
+    position: relative;
+  }
+
+  .text-block{
+    position: absolute;
+  bottom: 55px;
+  right: 550px;
+  width: 250px;
+  height: 20px;
+  background-color: white;
+  color: #14274A;
+  font-family: Montserrat;
+  font-weight: bolder;
+  padding-left: 80px;
+  padding-right: 20px;
+  }
+
+  .gym__div img{
+   padding: 50px;
+   margin-left: 250px;
+  }
+
+
+  .facilities__div h1{
+    margin: 0 400px;
+    padding: 0 50px;
+    color: #14274A;
+    font-weight: bolder;
+    font-family: EB Garamond;
+    font-size: 30px;
+    width: 500px;
+  }
+
+
+ 
+
+  footer{
+    background-color: #14274A;
+    font-family: Montserrat;
+  }
+
+  .footer__grandfather{
+    color: #ffffff;
+    padding: 15px 40px;
+    display: flex;
+  }
+
+  .luxury__parent{
+    flex: 1;
+
+  }
+
+  .about__parent{
+    flex: 1;
+  }
+
+  .about__parent h6{
+    padding-bottom: 8px;
+  }
+
+  .social__parent{
+    flex: 1;
+    
+  }
+
+  .social__parent h6{
+    padding-bottom: 8px;
+  }
+
+  .form__parent{
+    flex: 1;
+    
+
+  }
+
+
+.redefined{
+display: flex;
+margin: 20px 100px;
+height: 450px;
+}
+
+.redefined__text{
+  
+  border-left: 4px solid #14274A;
+  width: 280px;
+  height: 290px;
+  padding: 30px;
+  flex: 1;
+  font-size: 20px;
+}
+
+.redefined__text h2{
+  color: #14274A;
+  font-family: EB Garamond;
+  font-weight: bolder;
+}
+
+.redefined__text p{
+  color: #14274A;
+  font-family: Montserrat;
+}
+
+.redefined__text button{
+  color: #ffffff;
+  font-family: Montserrat;
+  background-color: #e0b973;
+  width: 120px;
+  height: 30px;
+  border-radius: 8%;
+  border: 1px solid #e0b973;
+  margin-top: 20px;
+}
+
+.redefined  div img{
+  width: 570px;
+   flex: 1;
+}
+
+
+.sand{
+  display: flex;
+  margin: 20px 100px;
+  height: 450px;
+  }
+  
+  .sand__text{
+    
+    border-left: 4px solid #14274A;
+    width: 280px;
+    height: 290px;
+    padding: 30px;
+    flex: 1;
+    font-size: 20px;
+  }
+  
+  .sand__text h2{
+    color: #14274A;
+    font-family: EB Garamond;
+    font-weight: bolder;
+  }
+  
+  .sand__text p{
+    color: #14274A;
+    font-family: Montserrat;
+  }
+  
+  .sand__text button{
+    color: #ffffff;
+    font-family: Montserrat;
+    background-color: #e0b973;
+    width: 120px;
+    height: 30px;
+    border-radius: 8%;
+    border: 1px solid #e0b973;
+    margin-top: 20px;
+  }
+  
+  .sand  div img{
+    width: 570px;
+     flex: 1;
+  }
+
+#index__scroll{
+  height: 120px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #14274A;
+  font-weight: lighter;
+  margin-top: 60px;
+}
+
+.testimonial img{
+  margin: 50px 400px;
+  align-items: center;
+  padding: 50px;
+  width: 460px;
+  
+}
+
+.email__button{
+  height: 30px;
+  justify-items:flex-start ;
+  background-color: #e0b973;
+  width: 210px;
+}
+
+.room__section{
+  border: 1px solid #14274A;
+  margin: 50px 150px;
+  width: 1000px;
+  
+}
+
+.room__section img{
+  width: 1000px;
+}
+
+.room_rel{
+  position: relative;
+}
+
+.room__block{
+  position: absolute;
+bottom: 5px;
+right: 0px;
+width: 1000px;
+height: 70px;
+background-color: #14274A;
+color: white;
+font-family: Montserrat;
+font-weight: bolder;
+padding-left: 80px;
+padding-right: 20px;
+padding-top: 10px;
+text-align: center;
+}
+
+.details__div{
+  display: flex;
+  height: 90px;
+  padding: 20px 30px;
+}
+
+.details__div p{
+  flex: 3;
+  font-family: Montserrat;
+  padding-top: 20px;
+}
+
+.details__div button{
+  flex: 1;
+  width: 100px;
+  background-color: #e0b973;
+  border: 1px solid #e0b973;
+  border-radius: 8%;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.contact_heading{
+  
+  margin: 100px 60px;
+  padding: 30px;
+  color: #14274A;
+}
+
+.contact_heading h1{
+  font-family: EB Garamond;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contact_heading p{
+  font-family: Montserrat;
+}
+
+.section__contact{
+  background-color: #14274A;
+  height: 250px;
+}
+
+.section__contact h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Montserrat;
+  margin-top: 50px;
+}
+
+
+.form__section{
+  display: flex;
+  margin: 100px 60px ;
+}
+
+ .container input[type=text],[type=email],textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  color: #14274A;
+}
+
+.container form button{
+
+    width: 80px;
+    background-color: #e0b973;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 300px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+
+  .container form button:hover{
+    background-color: #14274A;
+  }
+
+.container form label{
+  font-family: Montserrat;
+  color: #14274A;
+  font-weight: bold;
+}
+.container{
+  flex: 1;
+  padding: 50px;
+}
+
+.top_container{
+  flex: 2;
+  color: #14274A;
+  font-size: 25px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.about__parent a{
+  text-decoration: none;
+  color: white;
+}
+
+.email__button input[type=body]:hover{
+  background-color: #14274A;
+}
